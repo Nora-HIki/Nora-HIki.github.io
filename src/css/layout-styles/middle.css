@@ -13,6 +13,7 @@
  background-color:green;
  border-radius:2%;
 }
+
 .right,.left{
 overflow:hidden;
 border-radius:2%;
@@ -21,6 +22,7 @@ max-width:25%;
 background-color:yellow;
 display:flex;
 flex-flow:column;
+gap:10px;
 }
 
 .sidebar-section{

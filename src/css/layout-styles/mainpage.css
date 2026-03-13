@@ -11,6 +11,7 @@
 
 html{
   background-image:url('/assets/main_layout/num.gif');
+  overscroll-behavior:none;
 }
 
 #mainpage{
