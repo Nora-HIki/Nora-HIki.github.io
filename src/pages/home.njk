@@ -1,0 +1,32 @@
+---
+layout: main.njk
+title: home
+permalink: /home/
+---
+{% include "../_includes/middle/codec.njk" %}
+<script>
+  // Eleventy injects the array directly into this variable at build time
+  const characters = {{ characters | dump | safe }};
+  const path = "/assets/main_layout/middle/";
+
+  // Select your elements
+  const char1 = document.querySelector('#char1');
+  const char2 = document.querySelector('#char2');
+
+  function setRandomImages() {
+    if (!characters.length) return;
+
+    let pos1 = Math.floor(Math.random() * characters.length);
+    let pos2 = Math.floor(Math.random() * characters.length);
+
+    // Ensure they aren't the same image
+    if (characters.length > 1 && pos1 === pos2) {
+      pos2 = (pos1 + 1) % characters.length;
+    }
+
+    char1.src = path + characters[pos1];
+    char2.src = path + characters[pos2];
+  }
+
+  setRandomImages();
+</script>

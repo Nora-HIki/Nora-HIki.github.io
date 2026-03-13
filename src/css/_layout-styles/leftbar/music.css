@@ -19,6 +19,7 @@
   flex-flow: row;
   gap: 1%;
   align-items: space-around;
+  position:relative;
 }
 
 #decor > img {
@@ -29,6 +30,8 @@
 
 #decor > p {
   writing-mode: vertical-lr;
+  position:absolute;
+  right:4%;
   animation: write 2s infinite alternate steps(24);
   overflow: hidden;
   max-width: 5%;
@@ -39,7 +42,8 @@
     height: 0%;
   }
   to {
-    height: 40%;
+    height: 100%;
+
   }
 }
 

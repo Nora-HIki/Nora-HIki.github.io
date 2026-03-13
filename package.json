@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Personal Website",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/Nora-HIki/Nora-HIki.github.io#readme",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2"
+  },
+  "dependencies": {
+    "@11tyrocks/eleventy-plugin-lightningcss": "^1.6.0"
   }
 }
