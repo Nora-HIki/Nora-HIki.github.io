@@ -1,0 +1,29 @@
+/*the main middle flex-box*/
+.mid-section{
+  gap:1%;
+  display:flex;
+  flex-flow:row;
+  max-width:90%;
+  width:90%;
+}
+
+.center{
+ max-width:80%;
+ width:50%;
+ background-color:green;
+ border-radius:2%;
+}
+.right,.left{
+overflow:hidden;
+border-radius:2%;
+width:25%;
+max-width:25%;
+background-color:yellow;
+display:flex;
+flex-flow:column;
+}
+
+.sidebar-section{
+  background-color:blue;
+  border-radius:2%;
+}

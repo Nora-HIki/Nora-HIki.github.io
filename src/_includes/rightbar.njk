@@ -1,0 +1,126 @@
+<div class="sidebar-section" style="background-color: transparent">
+  <div style="background-color: transparent">
+    <img
+      id="vinyl"
+      src="/home/disko.gif"
+      style="
+        height: 80px;
+        width: 80px;
+        border-radius: 64px;
+        float: left;
+        position: absolute;
+        z-index: 99;
+      "
+    />
+
+    <blockquote
+      id="backy"
+      padding="8.8px"
+      style="
+        width: 66%;
+        margin-left: 34px;
+        background-color: grey;
+        height: 49px;
+        margin-top: 2%;
+      "
+    >
+      <div
+        style="
+          background-color: rgba(0, 0, 0, 0.5);
+          color: white;
+          width: 111%;
+          margin-left: 2%;
+          margin-top: -7%;
+        "
+      >
+        <marquee
+          id="songname"
+          style="max-height: 63px; margin-left: 10%; width: 100%"
+        >
+          Song Name
+        </marquee>
+      </div>
+      <button
+        style="
+          background-color: transparent;
+          border: 0;
+          margin-bottom: 0%;
+          margin-left: 27%;
+        "
+        onclick="prevsong()"
+      >
+        <img
+          height="20px"
+          src="/home/prev.png"
+          style="margin-left: 9%"
+        /></button
+      ><button
+        style="background-color: transparent; border: 0; margin-left: 3%"
+        onclick="playpause()"
+      >
+        <img height="20px" id="playpausebutton" src="/home/pause.png" /></button
+      ><button
+        style="
+          background-color: transparent;
+          border: 0;
+          margin-top: 7%;
+          margin-left: 0%;
+        "
+        onclick="nextsong()"
+      >
+        <img height="20px" src="/home/next.png" /></button
+      ><br />
+      <progress
+        align="center"
+        value="14.834104"
+        max="96.014512"
+        id="bar"
+        style="width: 82%; margin-left: 26%; margin-top: 0%"
+      ></progress>
+      <div id="timedisplay" style="color: white; margin-left: 26%">0:14</div>
+      <audio preload="auto" id="player" src="/music/505.mp3"></audio>
+    </blockquote>
+  </div>
+</div>
+<div class="sidebar-section" id="fanlistings">
+  <blockquote style="padding: 2px; transform: scale(0.8)">
+    <div style="margin: 2% 4% 2%">
+      <a href="https://akiba.flirt-wind.net/azumanga/"
+        ><img src="/home/azu.png"
+      /></a>
+      <a href="http://www.marheavenj.net/minakushi/"
+        ><img src="/home/minakushi.gif"
+      /></a>
+      <a href="http://shingeki.ichigo.nu/"><img src="/home/aot.gif" /></a>
+      <a href="http://fireflies.makemecry.net"><img src="/home/gotf.jpg" /></a>
+      <a href="http://hokage.fifteenth-moon.net/rin/"
+        ><img src="/home/rin.gif"
+      /></a>
+      <a href="http://hokage.fifteenth-moon.net/obito/"
+        ><img src="/home/obito.gif"
+      /></a>
+      <a href="https://rikafire.fanimated.net/ninetales/"
+        ><img style="height: 50px" src="/home/ninetales.png"
+      /></a>
+      <a href="http://www.marheavenj.net/hitagi/"
+        ><img src="/home/hitagi.jpg"
+      /></a>
+      <a href="http://www.enchanted-rose.org/pokemon/snivy/"
+        ><img src="/home/snivy.gif"
+      /></a>
+      <a href="http://fan.asuka.nu/shinji/"><img src="/home/shinji.gif" /></a>
+      <a href="https://hoshi.nu/misato/"><img src="/home/misato.png" /></a>
+      <a href="http://silent.am/hange/"><img src="/home/hange.png" /></a>
+      <a href="http://musashi.treasure-chest.org/"
+        ><img src="/home/miyamoto.jpg"
+      /></a>
+      <a href="https://www.marheavenj.net/holmes/"
+        ><img src="/home/sherlock.jpg"
+      /></a>
+      <a href="https://www.marheavenj.net/moriarty/"
+        ><img src="/home/william.jpg"
+      /></a>
+    </div>
+  </blockquote>
+</div>
+</div>
