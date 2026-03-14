@@ -3,7 +3,7 @@ layout: main.njk
 title: home
 permalink: /home/
 ---
-{% include "../_includes/middle/codec.njk" %}
+{% include "middle/codec.njk" %}
 <script>
   // Eleventy injects the array directly into this variable at build time
   const characters = {{ characters | dump | safe }};
