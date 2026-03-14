@@ -10,8 +10,8 @@ permalink: /home/
   const path = "/assets/main_layout/middle/";
 
   // Select your elements
-  const char1 = document.querySelector('#char1');
-  const char2 = document.querySelector('#char2');
+  let char1 = document.querySelector('#char1');
+  let char2 = document.querySelector('#char2');
 
   function setRandomImages() {
     if (!characters.length) return;
